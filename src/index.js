@@ -2,7 +2,6 @@ import React from 'react';
 import { render } from 'react-dom';
 import { BrowserRouter, Route } from 'react-router-dom';
 import Main from './components/Main';
-import Single from './components/Single';
 
 const Root = function() {
 	return(
@@ -10,7 +9,6 @@ const Root = function() {
 			<div>
 				<Route exact path="/" component={Main} />
 				<Route path="/search/:searchUser" component={Main} />
-				<Route path="/repo/:repoId/:repoSlug" component={Single} />
 			</div>
 		</BrowserRouter>
 	)

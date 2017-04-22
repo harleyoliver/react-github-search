@@ -49,7 +49,7 @@ class Main extends React.Component {
 
 	render() {
 		return (
-			<div>
+			<div className="container">
 				<Search />
 				<User user={this.state.user}/>
 				<Results repos={this.state.repos} />

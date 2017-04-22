@@ -2,6 +2,7 @@ import React from 'react';
 import { render } from 'react-dom';
 import { BrowserRouter, Route } from 'react-router-dom';
 import Main from './components/Main';
+import './style.css';
 
 const Root = function() {
 	return(

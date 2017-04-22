@@ -9,7 +9,6 @@ class Repo extends React.Component {
 			<div className="repo">
 				<h2>{name}</h2>
 				<p>{description}</p>
-				<strong>{stargazers_count}</strong>
 			</div>
 		)
 	}

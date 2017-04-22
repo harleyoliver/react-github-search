@@ -17,7 +17,7 @@ class Search extends React.Component {
 
 	render() {
 		return (
-			<div className="search">
+			<div className="container search">
 				<form onSubmit={this.handleSubmit} >
 					<input type="text" ref={(q) => this.q = q} placeholder="Enter GitHub Username" />
 					<input type="submit" value="Search"/>

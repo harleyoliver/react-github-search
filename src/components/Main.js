@@ -37,7 +37,7 @@ class Main extends React.Component {
 	}
 
 	loadRepos = (searchUser = 'harleyoliver') => {
-		fetch(`https://api.github.com/users/${searchUser}/repos?type=all`)
+		fetch(`https://api.github.com/users/${searchUser}/repos?page=1&per_page=100`)
 			.then(data => data.json())
 			.then(repos => {
 				console.log(repos);

@@ -7,7 +7,6 @@
 5. ??? Profit
 
 TODO
-* Actually finish the components
+* Possibly add SingleRepo component and link from a listed repo
 * Create error handling
-* Add styles
-* Learn more
+* Learn more React

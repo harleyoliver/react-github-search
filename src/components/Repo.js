@@ -3,7 +3,7 @@ import React from 'react';
 class Repo extends React.Component {
 	render() {
 		// Destruture the prop into a variable
-		const { name, description, stargazers_count } = this.props.details;
+		const { name, description } = this.props.details;
 
 		return (
 			<div className="repo">

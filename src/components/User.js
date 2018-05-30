@@ -9,11 +9,21 @@ class User extends React.Component {
 			<div className="user-profile">
 				<img src={avatar_url} alt={name} />
 				<ul>
-					<li><h2>{name}</h2></li>
-					<li><p>{bio}</p></li>
-					<li><strong>Followers:</strong> {followers}</li>
-					<li><strong>Following:</strong> {following}</li>
-					<li><strong>Repos:</strong> {public_repos}</li>
+					<li>
+						<h2>{name}</h2>
+					</li>
+					<li>
+						<p>{bio}</p>
+					</li>
+					<li>
+						<strong>Followers:</strong> {followers}
+					</li>
+					<li>
+						<strong>Following:</strong> {following}
+					</li>
+					<li>
+						<strong>Repos:</strong> {public_repos}
+					</li>
 				</ul>
 			</div>
 		)

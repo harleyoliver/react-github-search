@@ -1,9 +1,10 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 
 class Search extends React.Component {
 
 	static contextTypes = {
-		router: React.PropTypes.object
+		router: PropTypes.object
 	}
 
 	handleSubmit = (e) => {
